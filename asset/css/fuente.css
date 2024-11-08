@@ -1,0 +1,8 @@
+@font-face{
+	font-family: 'Fira Code';
+	src: url("../fonts/FiraCode-Regular.ttf");
+}
+
+* {
+	font-family: 'Fira Code';
+}

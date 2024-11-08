@@ -1,0 +1,32 @@
+.lista_productos {            
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta_producto {    
+    width: 300px;
+    height: 450px;
+    
+    box-shadow: 2px 2px 8px rgba(93, 93, 93, 1);
+    text-align: center;
+    
+    border-radius: 10px;
+    
+    margin: 20px;
+    padding-top: 10px;
+}
+
+.tarjeta_producto > img {
+    max-width: 250px;
+}
+
+.info_producto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+    margin: 10px;
+    margin-bottom: 20px;
+}

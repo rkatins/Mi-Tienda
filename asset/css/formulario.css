@@ -1,0 +1,43 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: #9c9ad3; */
+    width: 440px;
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    box-shadow: 2px 2px 8px rgba(93, 93, 93, 1);
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.etiquetasForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.etiquetasForm > input,textarea {
+    width: 230px;
+    height: 30px;
+    min-height: 30px;
+
+    margin: 10px;
+}
+
+.etiquetasForm > label {
+    margin-left: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
